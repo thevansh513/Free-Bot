@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ad Redirect</title>
+</head>
+<body>
+    <h2>Ad load ho raha hai…</h2>
+
+    <!-- Ad script -->
+    <script src="//libtl.com/sdk.js" data-zone="9870348" data-sdk="show_9870348"></script>
+
+    <!-- Redirect after 5 seconds -->
+    <script>
+        setTimeout(function() {
+            // Localhost URL par redirect
+            window.location.href = "http://localhost/testpage.html"; 
+        }, 5000); // 5 seconds delay
+    </script>
+</body>
+</html>
